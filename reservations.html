@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+    Group Name: 100Percent
+	Members: Garrett Martin, Patrick McGowan, Jack Larroude
+    Assignment Number: 4
+    Date:   10/24/2021
+    Filename: reservationss.html
+   -->
+	<title>100% Assignment 4</title>
+	<meta charset="utf-8">
+    <link href="100percent_styles.css" rel="stylesheet">
+	<script src="100percent_script.js"></script>
+</head>	
+<header>
+	<h1 class="logo">The Space Hotel</h1>
+</header>
+
+<nav>
+	<a href="index.html">Home</a> <a href="rooms.html">Rooms</a> <a href="amenities.html">Amenities</a> <a href="reservations.html">Reservations</a> <a href="#AA"> Area Attractions</a>
+</nav>
+<main>
+<h2>Reserve a Room</h2>
+	<form method="get" action="formProcessor.html">
+		<fieldset>
+			<legend>Contact Information</legend>
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="custName"><br>
+	
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="custEmail"><br>
+	
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="custPhone"><br>
+			
+			<label for="address">Address:</label>
+			<textarea id="address" name="custAddress"></textarea><br>
+			
+			<label for="age">Age:</label>
+			<input type="number" id="age" name="custAge" min="18" max="100" value="21"><br>
+			
+		</fieldset>
+		<fieldset>
+			<legend>Room Information</legend>
+			<label for="start">Reservation Start:</label>
+			<input type="date" id="start" name="resStart"><br>
+			
+			<label for="end">Reservation End:</label>
+			<input type="date" id="end" name="resEnd"><br>
+			
+			<label for="room">Room Type</label>
+			<select id="room" name="roomType">
+				<option value="empty"> </option>
+				<option value="mercury">Mercury Room</option>
+				<option value="venus">Venus Room</option>
+				<option value="mars">Mars Room</option>
+				<option value="jupiter">Jupiter Room</option>
+				<option value="saturn">Saturn Room</option>
+				<option value="uranus">Uranus Room</option>
+				<option value="neptune">Neptune Room</option>
+			</select><br>
+			
+			<label for="guests">Number of Guests</label>
+			<input type="range" id="guests" name="numGuests" min="1" max="7">
+		</fieldset>
+		
+		<fieldset>
+			<legend>Packages and Room Requests</legend>
+			<input type="radio" name="packageType" id="marsPackage1">
+			<label for="marsPackage1">Mars Exploration Package</label>
+			<input type="radio" name="packageType" id="neptunePackage1">
+			<label for="neptunePackage1">Neptune Exploration Package</label><br>
+			<input type="radio" name="packageType" id="mercuryPackage1">
+			<label for="mercuryPackage1">Mercury Exploration Package</label>
+			<input type="radio" name="packageType" id="venusPackage1">
+			<label for="venusPackage1">Venus Exploration Package</label><br>
+			<input type="radio" name="packageType" id="uranusPackage1">
+			<label for="uranusPackage1">Uranus Exploration Package</label>
+			<input type="radio" name="packageType" id="jupiterPackage1">
+			<label for="jupiterPackage1">Jupiter Exploration Package</label><br>
+			<input type="radio" name="packageType" id="saturnPackage1">
+			<label for="saturnPackage1">Saturn Exploration Package</label><br> 
+
+			
+			
+			
+			<input type="checkbox" name="roomType" id="requestRoom1">
+			<label for="requestRoom1">Saturn Suite</label>
+			
+			<input type="checkbox" name="roomType" id="requestRoom2">
+			<label for="requestRoom2">Mercury Suite</label><br>
+			
+			<input type="checkbox" name="roomType" id="requestRoom3">
+			<label for="requestRoom3">Venus Suite</label>
+			
+			<input type="checkbox" name="roomType" id="requestRoom4">
+			<label for="requestRoom4">Mars Room</label><br>
+			
+			<input type="checkbox" name="roomType" id="requestRoom5">
+			<label for="requestRoom5">Jupiter Room</label>
+			
+			<input type="checkbox" name="roomType" id="requestRoom6">
+			<label for="requestRoom6">Neptune Room</label><br>
+			
+			<input type="checkbox" name="roomType" id="requestRoom7">
+			<label for="requestRoom7">Uranus Suite</label>
+						
+		
+		</fieldset>
+		
+		<input type="submit" onclick="reservations()" value="Reserve Room">
+		
+	</form>
+	<script>
+
+	</script>
+
+</main>
+<footer>
+	&copy;	September 2, 2021 <a href="mailto:jm50016@georgiasouthern.edu">Patrick McGowan</a> <a> | </a> <a href="mailto:jl25223@georgiasouthern.edu">Jack Larroude</a> <a> | </a> <a href="mailto:bm20644@georgiasouthern.edu">Garret Martin </a>
+</footer>
+</html>

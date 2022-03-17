@@ -1,0 +1,209 @@
+/* 
+	Group Name: 100Percent
+	Members: Garrett Martin, Patrick McGowan, Jack Larroude
+    Assignment Number: 4
+    Date:   10/24/2021
+    Filename: 100percent_styles.css
+*/
+html{
+	background-color: #141414;
+	color: #d6d6d6;
+}
+
+body{
+	box-shadow: 10px 10px 50px #afaadd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1080px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-radius: 20px;
+}
+.logo {
+	text-indent: -999999px;
+	background:url("100%_logo.png");
+	width: 615px;
+	height: 72px;
+}
+
+header{
+	margin: auto;
+	width: 50%;
+}
+
+main{
+	color: #ffffff;
+	background: radial-gradient(ellipse at top, #031163, transparent),
+				radial-gradient(ellipse at bottom, #C04CFD, transparent);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top: 20px;
+	font-family: 'Courier New', monospace;
+	text-shadow: 5px 5px 5px #000000;
+
+}
+main a{
+	color: #aaaaff;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+
+main h2{
+	font-family: 'Consolas', monospace;
+	color: #54c9a7;
+}
+main h3{
+	font-family: 'Lucida Sans Typewriter', monospace;
+	color: #b47a95;
+}
+ul {
+	display: table;
+}
+
+img {
+	border-style: outset;
+	display: block;
+	margin: 30px;
+	float: left;
+	width: 30%;
+}
+table {
+	border-style: inset;
+	border-color: #54c9a7;
+	width: 100%;
+	vertical-align: middle;
+	border-collapse: collapse;
+	
+}
+tr:first-of-type {
+	background-color: rgb(255, 165, 0);
+	color: black;
+	letter-spacing: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	border-bottom-color: #54c9a7;
+}
+#row1 , #row3, #row5 {
+	background-color: blue;
+	color: red;
+}
+#row2 , #row4, #row6 {
+	background-color: rgb(105,105,105);
+	color: yellow;
+}
+td {
+	padding: 10px;
+	text-align: center;
+}
+caption {
+	caption-side: bottom;
+	text-align: left;
+	padding: 5px;
+	color: rgb(255, 255, 204);
+	font-size: small;
+}
+nav{
+	display: block;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 5px solid #292929;
+	margin-bottom: 20px;
+	font-family: 'Courier New', monospace;
+	
+}
+
+nav a{
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	border-bottom: 2px solid #0A56AF;
+	border-left: 2px solid #0A56AF;
+	border-right: 2px solid #0A56AF;
+	border-top: 2px solid #0A56AF;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #292929;
+}
+nav a:link{
+	color: #031163;
+	text-decoration: none;
+}
+nav a:visited{
+	color: #714AD3;
+	text-decoration: none;
+}
+nav a:hover{
+	color: hotpink;
+	background-color: #b47a95;
+}
+
+footer{
+	padding: 7px;
+	background-color: transparent;
+	color: white;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+footer a {
+	color: #C04CFD;
+}
+
+form {
+	background-color:GoldenRod;
+	margin:auto;
+
+}
+
+fieldset {
+	border-style:dotted;
+	border-color:MidnightBlue;
+	border-bottom-color:#AFEEEE;
+	color:Purple;
+	font-family:"OCR A Std", monospace;
+	padding:10px 15px 10px 15px;
+	margin: 15px 10px 15px 10px;
+	text-shadow:2px 2px 8px #FF0000;
+
+}
+legend {
+	border-style:Solid;
+	border-color:LightBlue;
+	color:Purple;
+	font-family:"OCR A Std", monospace;
+	padding:10px 15px 10px 15px;
+	margin: 15px 10px 15px 10px;
+	text-shadow:2px 2px 8px LightBlue;
+}
+
+input[type="text"]{
+	margin:auto;
+	text-align:justify;
+}
+
+input[type="submit"] {
+display:block;
+margin:auto;
+border:Solid;
+border-color:MidnightBlue;
+font-family:"OCR A Std", monospace;
+background-color:LightBlue;
+}
+input, textarea {
+  font    : 1.2em/1.4em "OCR A Std", monospace, sans-serif;
+  border  : solid;
+  padding : 10px;
+  margin-right  : 1px;
+  width   : 50%;
+  background : none;
+
+}
+#list1{
+	padding-left: 370px;
+}
